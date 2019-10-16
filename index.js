@@ -21,3 +21,4 @@ function Circle(radius){
     }
 }
 const another = new Circle(1); //If i dont use "new" the variable becomes global = bad 
+const hej = hej; 
