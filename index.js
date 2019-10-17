@@ -31,3 +31,6 @@ this.draw = function() {
     console.log('draw');
 }
 `);
+
+const mineCircle = new Circle1(1);
+
