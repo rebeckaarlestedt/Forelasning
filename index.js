@@ -10,8 +10,6 @@ function createCircle(radius) {
 }
 
 const circle = createCircle(1);
-//console.log(circle);
-//console.log('test');
 
 //Constructor function does not need a return
 function Circle(radius){
@@ -21,4 +19,9 @@ function Circle(radius){
     }
 }
 const another = new Circle(1); //If i dont use "new" the variable becomes global = bad 
-console.log(another);
+
+//BUILT IN CONSTRUCTORS
+//new String(); // "", '', ```
+//new Boolean(); // true, false
+//new Number(); //1, 2, 3
+
