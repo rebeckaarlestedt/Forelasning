@@ -25,3 +25,9 @@ const another = new Circle(1); //If i dont use "new" the variable becomes global
 //new Boolean(); // true, false
 //new Number(); //1, 2, 3
 
+const Circle1 = new Function('radius', `    
+this.radius = radius;
+this.draw = function() {
+    console.log('draw');
+}
+`);
